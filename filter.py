@@ -28,7 +28,7 @@ Note that the filter function returns a Filter object and we need to encapsulate
 
 Filtered = list(Filtered)
 
-# print(Filtered)
+print(Filtered)
 # [2, 4, 6]
 
 # Applications 
