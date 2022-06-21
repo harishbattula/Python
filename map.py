@@ -25,22 +25,22 @@ MappedList = map(Add, SampleList1)
 
 MappedList = list(MappedList)
 
-# print(MappedList) # [2, 4, 6, 8, 10]
+print(MappedList) # [2, 4, 6, 8, 10]
 
 # mapping with lambda function
 MappedList = map(lambda x : x + x, SampleList1)
 MappedList = list(MappedList)
 
-# print(MappedList) # [2, 4, 6, 8, 10]
+print(MappedList) # [2, 4, 6, 8, 10]
 
 # mapping with multiple iterables
 SampleList2 = [6, 7, 8, 9, 10]
 MappedList = list(map(lambda x, y : x + y, SampleList1, SampleList2))
 
-# print(MappedList) # [7, 9, 11, 13, 15]
+print(MappedList) # [7, 9, 11, 13, 15]
 
 # mapping using inbuilt functions
 Members = ["mani", "fayaz", "pavan"]
 MappedList = list(map(list, Members))
 
-# print(MappedList) # [['m', 'a', 'n', 'i'], ['f', 'a', 'y', 'a', 'z'], ['p', 'a', 'v', 'a', 'n']]
+print(MappedList) # [['m', 'a', 'n', 'i'], ['f', 'a', 'y', 'a', 'z'], ['p', 'a', 'v', 'a', 'n']]
