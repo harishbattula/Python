@@ -19,7 +19,7 @@ print(Normal(2)) # 4
 print((lambda c : c+c)(2)) # 4
 
 '''
-In the code above, the function was created and then immediately executed. 
+In the code above, the function was created and then immediately executed.
 This is an example of an immediately invoked function expression or IIFE that runs as soon as it is defined.
 '''
 
