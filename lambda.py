@@ -13,10 +13,10 @@ The keyword lambda must come first. A full colon (:) separates the argument and 
 def Normal(c):
     return c+c
 
-# print(Normal(2)) # 4
+print(Normal(2)) # 4
 
 # lambda function
-# print((lambda c : c+c)(2)) # 4
+print((lambda c : c+c)(2)) # 4
 
 '''
 In the code above, the function was created and then immediately executed. 
@@ -77,8 +77,6 @@ print(df.head())
 
 # filter by age using filter and lambda
 print("age's greater than 25", list(filter(lambda x : x > 25, df["Age"])))
-
-# output
 # age's greater than 25 [26, 27, 28]
 
 # captilizing first letter of each word in Name and Designation columns
